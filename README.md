@@ -29,6 +29,12 @@ Application - data usage
 Warning - system validation
 Error - system error
 
+## Beacon
+nRF Connect support Apple's and Google's standard beacon.
+You find Apple's specification here: https://developer.apple.com/ibeacon/
+For Google: https://github.com/google/eddystone/blob/master/protocol-specification.md
+(Eddystone-UID, Eddystone-URL, Eddystone-TLM are supported)
+
 ## Roadmap 
 - Device Firmware Update (DFU) support
 - GATT Profiles support
