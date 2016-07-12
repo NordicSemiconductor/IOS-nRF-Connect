@@ -22,12 +22,12 @@ The RSSI chart feature is available from the version 1.5. The linear curve descr
 
 ## Log
 The log feature is available from the version 1.5. nRF Connect provides 6 levels of log.
-Debug - system level action
-Verbose - user interaction  
-Info - client action
-Application - data usage
-Warning - system validation
-Error - system error
+- Debug - system level action
+- Verbose - user interaction  
+- Info - client action
+- Application - data usage
+- Warning - system validation
+- Error - system error
 
 ## Beacon
 nRF Connect support Apple's and Google's standard beacon.
