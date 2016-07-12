@@ -20,6 +20,15 @@ The current version "nRF Connect" formerly known as "nRF Master Control Panel", 
 ## RSSI chart
 The RSSI chart feature is available from the version 1.5. The linear curve describes relative distance between a phone/tablet and peripheral. Theoretically, When received RSSI number is bigger, it is closer to the periperal. The calculation is limited to an unchanged transmit power and ignorance of other parts might cause signal fading.
 
+## Log
+The log feature is available from the version 1.5. nRF Connect provides 6 levels of log.
+Debug - system level action
+Verbose - user interaction  
+Info - client action
+Application - data usage
+Warning - system validation
+Error - system error
+
 ## Roadmap 
 - Device Firmware Update (DFU) support
 - GATT Profiles support
