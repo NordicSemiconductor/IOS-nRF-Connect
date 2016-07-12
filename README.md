@@ -18,7 +18,7 @@ The current version "nRF Connect" formerly known as "nRF Master Control Panel", 
 - Parses Apple's and Google's standards of beacons 
 
 ## RSSI chart
-The RSSI chart feature is available from the version 1.5. The flowing chart shows relative distance changing between your phone/tablet and peripheral. Theoretically, When received RSSI number is bigger, it is closer to the periperal. The calculation is limited to an unchanged transmit power and ignorance of other parts might cause signal fading.
+The RSSI chart feature is available from the version 1.5. The linear curve describes relative distance between a phone/tablet and peripheral. Theoretically, When received RSSI number is bigger, it is closer to the periperal. The calculation is limited to an unchanged transmit power and ignorance of other parts might cause signal fading.
 
 ## Roadmap 
 - Device Firmware Update (DFU) support
