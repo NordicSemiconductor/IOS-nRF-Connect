@@ -46,4 +46,4 @@ For Google: https://github.com/google/eddystone/blob/master/protocol-specificati
 - https://github.com/NordicSemiconductor/IOS-Pods-DFU-Library
 - https://github.com/NordicSemiconductor/Android-nRF-Connect
 - https://github.com/NordicSemiconductor/Android-DFU-Library
-- https://devzone.nordicsemi.com/blogs/922/nrf-connect-v10-release-candidate/
+- https://www.nordicsemi.com/Products/Bluetooth-low-energy/nRF-Connect-for-desktop
