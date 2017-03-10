@@ -6,6 +6,7 @@ This project started at end of 2015, the aim is to make a comprehensive Bluetoot
 
 ## Current Version
 The current version "nRF Connect" formerly known as "nRF Master Control Panel", includes the following features:
+- Supports DFU
 - Scans for Bluetooth low energy (LE) (or called Bluetooth Smart)devices
 - Shows advertisement data
 - Shows RSSI in chart
@@ -36,7 +37,6 @@ For Google: https://github.com/google/eddystone/blob/master/protocol-specificati
 (Eddystone-UID, Eddystone-URL, Eddystone-TLM are supported)
 
 ## Roadmap 
-- Device Firmware Update (DFU) support
 - GATT Profiles support
 - Imporving UI
 - GATT Server configuration
