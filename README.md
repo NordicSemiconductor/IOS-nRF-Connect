@@ -7,7 +7,7 @@ This project started at end of 2015, the aim is to make a comprehensive Bluetoot
 ## Current Version
 The current version "nRF Connect" formerly known as "nRF Master Control Panel", includes the following features:
 - Supports DFU
-- Scans for Bluetooth low energy (LE) (or called Bluetooth Smart)devices
+- Scans for BLE devices
 - Shows advertisement data
 - Shows RSSI in chart
 - Logs Bluetooth related events and method calls
@@ -16,7 +16,9 @@ The current version "nRF Connect" formerly known as "nRF Master Control Panel", 
 - Allows to read and write characteristics
 - Allows to enable and disable notifications and indications
 - Supports the Nordic UART Service
-- Parses Apple's and Google's standards of beacons 
+- Parses Apple's and Google's standards of beacons
+- Advertise as a peripheral 
+- Nordic Thingy 
 
 ### RSSI chart
 The RSSI chart feature is available from the version 1.5. The linear curve describes relative distance between a phone/tablet and peripheral. Theoretically, When received RSSI number is bigger, it is closer to the periperal. The calculation is limited to an unchanged transmit power and ignorance of other parts might cause signal fading.
