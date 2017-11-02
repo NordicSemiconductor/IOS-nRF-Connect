@@ -44,7 +44,6 @@ For Google: https://github.com/google/eddystone/blob/master/protocol-specificati
 - GATT Server configuration
 
 ## Related Projects
-- https://github.com/NordicSemiconductor/IOS-DFU-Library
 - https://github.com/NordicSemiconductor/IOS-Pods-DFU-Library
 - https://github.com/NordicSemiconductor/Android-nRF-Connect
 - https://github.com/NordicSemiconductor/Android-DFU-Library
