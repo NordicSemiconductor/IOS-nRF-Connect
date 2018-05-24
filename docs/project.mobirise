@@ -1,0 +1,342 @@
+{
+  "settings": {
+    "name": "Site-05-23_1519",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise4",
+      "title": "Mobirise 4",
+      "styling": {
+        "primaryColor": "#149dcc",
+        "secondaryColor": "#ff3366",
+        "successColor": "#F7ED4A",
+        "infoColor": "#82786E",
+        "warningColor": "#879A9F",
+        "dangerColor": "#B1A374",
+        "mainFont": "Rubik",
+        "display1Font": "Rubik",
+        "display1Size": 4.25,
+        "display2Font": "Rubik",
+        "display2Size": 3,
+        "display5Font": "Rubik",
+        "display5Size": "1",
+        "display7Font": "Rubik",
+        "display7Size": "0.8",
+        "display4Font": "Rubik",
+        "display4Size": 1,
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": []
+    },
+    "siteFonts": [],
+    "versionFirst": "4.7.6",
+    "uniqCompNum": 19,
+    "versionPublish": "4.7.6",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".icons-media-container": {
+              "display": "flex",
+              "justify-content": "center",
+              "-webkit-justify-content": "center",
+              "flex-direction": "row",
+              "-webkit-flex-direction": "row",
+              "flex-wrap": "wrap",
+              "-webkit-flex-wrap": "wrap",
+              "padding-top": "4rem",
+              ".mbr-iconfont": {
+                "font-size": "96px",
+                "color": "rgb(255, 255, 255)"
+              },
+              ".icon-block": {
+                "padding-bottom": "1rem"
+              }
+            },
+            ".mbr-text": {
+              "color": "#ffffff"
+            },
+            ".card": {
+              "padding-bottom": "1.5rem"
+            }
+          },
+          "_name": "header12",
+          "_customHTML": "<section class=\"header12\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"VimeoPlayer\" mbr-class=\"{'mbr-fullscreen': fullScreen,'mbr-parallax-background' :bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n\n        <select title=\"Columns\" name=\"cardsCount\">\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/img/03.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#149dcc\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#0f7699\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container  \">\n            <div class=\"media-container\">\n                <div class=\"col-md-12 align-center\">\n                    <h1 class=\"mbr-section-title pb-3 mbr-white mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><span style=\"font-weight: normal;\">\n                        nRF Connect</span></h1>\n                    <p class=\"mbr-text pb-3 mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Nordic Semiconductor ASA</p>\n                    <div class=\"mbr-section-btn align-center py-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                        <a class=\"btn btn-md btn-secondary\" href=\"https://mobirise.com\">MORE</a>\n                    </div>\n\n                    <div class=\"icons-media-container mbr-white\">\n                        <div class=\"card col-12 col-md-6\" mbr-class=\"{'col-lg-3':cardsCount=='4', 'col-lg-4':cardsCount=='3'}\">\n                            <div mbr-if=\"showIcons\" class=\"icon-block\">\n                            <a href=\"Privacy.html#accordion1-i\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbrib-info\"></span>\n                            </a>\n                            </div>\n                            <h5 mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" class=\"mbr-fonts-style\">\n                                Privacy</h5>\n                        </div>\n\n                        <div class=\"card col-12 col-md-6\" mbr-class=\"{'col-lg-3':cardsCount=='4', 'col-lg-4':cardsCount=='3'}\">\n                            <div mbr-if=\"showIcons\" class=\"icon-block\">\n                                <a href=\"License.html#table1-5\" target=\"_blank\">\n                                    <span mbr-icon class=\"mbr-iconfont mbrib-file\"></span>\n                                </a>\n                            </div>\n                            <h5 mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" class=\"mbr-fonts-style\">License</h5>\n                        </div>\n\n                        <div class=\"card col-12 col-md-6\" mbr-class=\"{'col-lg-3':cardsCount=='4', 'col-lg-4':cardsCount=='3'}\" mbr-if=\"cardsCount>2\">\n                            <div mbr-if=\"showIcons\" class=\"icon-block\">\n                                <a href=\"https://mobirise.com/\">\n                                    <span mbr-icon class=\"mbri-cash mbr-iconfont\"></span>\n                                </a>\n                            </div>\n                            <h5 mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" class=\"mbr-fonts-style\">\n                                Target Buyers\n                            </h5>\n                        </div>\n\n                        <div class=\"card col-12 col-md-6\" mbr-class=\"{'col-lg-3':cardsCount=='4', 'col-lg-4':cardsCount=='3'}\" mbr-if=\"cardsCount>3\">\n                            <div mbr-if=\"showIcons\" class=\"icon-block\">\n                                <a href=\"https://mobirise.com/\">\n                                    <span mbr-icon class=\"mbri-mobirise mbr-iconfont\"></span>\n                                </a>\n                            </div>\n                            <h5 mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" class=\"mbr-fonts-style\">\n                                Reach Top\n                            </h5>\n                        </div>\n                    </div>\n                </div>\n            </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_cid": "qSXy2ztbzK",
+          "_anchor": "header12-g",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "License.html": {
+      "settings": {
+        "title": "License",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 2
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            },
+            ".container-table": {
+              "margin": "0 auto"
+            },
+            ".scroll": {
+              "overflow-x": "auto",
+              "padding": "0"
+            },
+            ".dataTables_wrapper": {
+              "display": "block",
+              ".search": {
+                "margin-bottom": ".5rem"
+              },
+              ".table": {
+                "overflow-x": "auto"
+              }
+            },
+            "table": {
+              "width": "100% !important",
+              "margin-top": "6px",
+              "border": "1px solid @tbColor",
+              "margin-bottom": "0",
+              "th": {
+                "border-top": "none",
+                "transition": "all .2s",
+                "border-bottom": "none",
+                "&:hover": {
+                  "background": "@tbColor",
+                  "color": "contrast(@tbColor)"
+                }
+              },
+              "td": {
+                "border-top": "1px solid @tbColor"
+              },
+              "&.table": {
+                "& when (@tbBackground)": {
+                  "background": "@tbBgColor"
+                }
+              }
+            },
+            ".dataTables_filter": {
+              "text-align": "right",
+              "margin-bottom": ".5rem",
+              "label": {
+                "display": "inline",
+                "white-space": "normal !important"
+              },
+              "input": {
+                "display": "inline",
+                "width": "auto",
+                "margin-left": ".5rem",
+                "border-radius": "100px",
+                "padding-left": "1rem"
+              }
+            },
+            ".dataTables_info": {
+              "padding-bottom": "1rem",
+              "padding-top": "1rem",
+              "white-space": "normal !important"
+            },
+            "@media (max-width: 992px)": {
+              ".dataTables_filter": {
+                "text-align": "center"
+              }
+            },
+            "@media (max-width: 350px)": {
+              ".dataTables_filter": {
+                "text-align": "center",
+                "input": {
+                  "width": "100% !important",
+                  "margin-left": "0 !important"
+                }
+              }
+            }
+          },
+          "_name": "table1",
+          "_customHTML": "<section class=\"section-table\" group=\"Tables\" plugins=\"dataTables\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n  <mbr-parameters>\n  <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n    <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n    <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n    <input type=\"range\" inline title=\"Columns\" name=\"tableColumns\" min=\"1\" max=\"50\" step=\"1\" value=\"2\">\n    <input type=\"range\" inline title=\"Rows\" name=\"tableRows\" min=\"1\" max=\"50\" step=\"1\" value=\"4\">\n    <input type=\"color\" title=\"Table Border Color\" name=\"tbColor\" value=\"#cccccc\">\n    <input type=\"checkbox\" title=\"Table Background\" name=\"tbBackground\" checked>\n    <input type=\"color\" title=\"Table Background Color\" name=\"tbBgColor\" value=\"#ffffff\" condition=\"tbBackground\">\n    <input type=\"checkbox\" title=\"Search\" name=\"isSearch\">\n    <fieldset type=\"background\" name=\"bg\" parallax>\n      <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n      <input type=\"color\" title=\"Background Color\" value=\"#f9f9f9\" selected>\n      <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n    </fieldset>\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">    \n  <!-- End block parameters -->\n  </mbr-parameters>\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n  </div>\n  <div class=\"container container-table\">\n      <h2 class=\"mbr-section-title mbr-fonts-style align-center pb-3\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">\n          Licenses</h2>\n      <h3 class=\"mbr-section-subtitle mbr-fonts-style align-center pb-5 mbr-light\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"></h3>\n      <div class=\"table-wrapper\">\n        <div class=\"container\">\n          <div class=\"row search\" mbr-if=\"isSearch\">\n            <div class=\"col-md-6\"></div>\n            <div class=\"col-md-6\">\n                <div class=\"dataTables_filter\">\n                  <label mbr-text class=\"searchInfo mbr-fonts-style\" mbr-theme-style=\"display-7\">Search:</label>\n                  <input class=\"form-control input-sm\" disabled>\n                </div>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"container scroll\">\n          <table class=\"table\" mbr-class=\"{'isSearch':isSearch}\" cellspacing=\"0\">\n            <thead>\n              <tr class=\"table-heads \" mbr-list mbr-list-grow=\"tableColumns\">\n                  <th mbr-text class=\"head-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".head-item\">\n                      NAME</th>\n                  \n                  \n                  \n              <th mbr-text class=\"head-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".head-item\">License</th></tr>\n            </thead>\n\n            <tbody mbr-list mbr-list-grow=\"tableRows\">\n              <tr mbr-list mbr-list-grow=\"tableColumns\"> \n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\"><a href=\"https://github.com/danielgindi/Charts\" target=\"_blank\">Charts</a></td>\n                \n                \n                \n              <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">Apache 2.0</td></tr>\n              <tr mbr-list mbr-list-grow=\"tableColumns\">\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\"><a href=\"https://github.com/evermeer/EVReflection\" target=\"_blank\">EVReflection</a></td>\n                \n                \n                \n              <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">MIT</td></tr>\n              <tr mbr-list mbr-list-grow=\"tableColumns\">\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\"><a href=\"https://github.com/NordicSemiconductor/IOS-Pods-DFU-Library\" target=\"_blank\">iOSDFULibrary</a></td>\n                \n                \n                \n              <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">BSD 3-clause</td></tr>\n              <tr mbr-list mbr-list-grow=\"tableColumns\">\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\"><a href=\"https://github.com/John-Lluch/SWRevealViewController\" target=\"_blank\">SWRevealViewController</a></td>\n                \n                \n                \n              <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">MIT</td></tr>\n            </tbody>\n          </table>\n        </div>\n        <div class=\"container table-info-container\">\n          <div class=\"row info\" mbr-if=\"isSearch\">\n            <div class=\"col-md-6\">\n              <div class=\"dataTables_info mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <span mbr-text class=\"infoBefore\" data-app-selector=\".dataTables_info\">Showing</span>\n                <span class=\"inactive infoRows\"></span>\n                <span mbr-text class=\"infoAfter\" data-app-selector=\".dataTables_info\">entries</span>\n                <span mbr-text class=\"infoFilteredBefore\" data-app-selector=\".dataTables_info\">(filtered from</span>\n                <span class=\"inactive infoRows\"></span>\n                <span mbr-text class=\"infoFilteredAfter\" data-app-selector=\".dataTables_info\"> total entries)</span>\n              </div>\n            </div>\n            <div class=\"col-md-6\"></div>\n          </div>\n        </div>\n      </div>\n    </div>\n</section>",
+          "_cid": "qSXwFgPBzQ",
+          "_anchor": "table1-5",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content2",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article>\n                <blockquote><p> <span style=\"font-style: normal;\"><b>Charts</b>&nbsp;Copyright 2016 Daniel Cohen Gindi &amp; Philipp Jahoda</span></p><p><span style=\"font-size: 1.09rem; font-style: normal;\">Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at</span></p><p><span style=\"font-size: 1.09rem; font-style: normal;\">http://www.apache.org/licenses/LICENSE-2.0</span></p><p><span style=\"font-size: 1.09rem; font-style: normal;\">Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</span></p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qSXwFhXjL0",
+          "_anchor": "content2-6",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content2",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article>\n                <blockquote><p><span style=\"font-style: normal;\"><b>EVReflection&nbsp;</b>Copyright (c) 2015, EVICT B.V.&nbsp;<span style=\"font-size: 1.09rem;\">All rights reserved.&nbsp;</span><span style=\"font-size: 1.09rem;\">http://evict.nl, mailto://edwin@evict.nl.</span></span></p><p><span style=\"font-style: normal;\"><span style=\"font-size: 1.09rem;\">Redistribution and use in source and binary forms, with or without&nbsp;</span><span style=\"font-size: 1.09rem;\">modification, are permitted provided that the following conditions are met:</span></span></p><p><span style=\"font-style: normal;\"><span style=\"font-size: 1.09rem;\">* Redistributions of source code must retain the above copyright&nbsp;</span><span style=\"font-size: 1.09rem;\">notice, this list of conditions and the following disclaimer.</span></span></p><p><span style=\"font-style: normal;\"><span style=\"font-size: 1.09rem;\">* Redistributions in binary form must reproduce the above copyright&nbsp;</span><span style=\"font-size: 1.09rem;\">notice, this list of conditions and the following disclaimer in the&nbsp;</span><span style=\"font-size: 1.09rem;\">documentation and/or other materials provided with the distribution.</span></span></p><p><span style=\"font-style: normal;\"><span style=\"font-size: 1.09rem;\">* Neither the name of EVICT B.V. nor the&nbsp;</span><span style=\"font-size: 1.09rem;\">names of its contributors may be used to endorse or promote products&nbsp;</span><span style=\"font-size: 1.09rem;\">derived from this software without specific prior written permission.</span></span></p><p><span style=\"font-style: normal;\"><span style=\"font-size: 1.09rem;\">THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND&nbsp;</span><span style=\"font-size: 1.09rem;\">ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED&nbsp;</span><span style=\"font-size: 1.09rem;\">WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE&nbsp;</span><span style=\"font-size: 1.09rem;\">DISCLAIMED. IN NO EVENT SHALL &lt;COPYRIGHT HOLDER&gt; BE LIABLE FOR ANY&nbsp;</span><span style=\"font-size: 1.09rem;\">DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES&nbsp;</span><span style=\"font-size: 1.09rem;\">(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;&nbsp;</span><span style=\"font-size: 1.09rem;\">LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND&nbsp;</span><span style=\"font-size: 1.09rem;\">ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT&nbsp;</span><span style=\"font-size: 1.09rem;\">(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS&nbsp;</span><span style=\"font-size: 1.09rem;\">SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</span></span></p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qSXwFibyqw",
+          "_anchor": "content2-7",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content2",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article>\n                <blockquote><p> <span style=\"font-style: normal;\"><b>iOSDFULibrary</b>&nbsp;Copyright (c) 2016, Nordic Semiconductor&nbsp;<span style=\"font-size: 1.09rem;\">All rights reserved.</span></span></p><p><span style=\"font-style: normal;\"><span style=\"font-size: 1.09rem;\">Redistribution and use in source and binary forms, with or without&nbsp;</span><span style=\"font-size: 1.09rem;\">modification, are permitted provided that the following conditions are met:</span></span></p><p><span style=\"font-style: normal;\"><span style=\"font-size: 1.09rem;\">* Redistributions of source code must retain the above copyright notice, this&nbsp;</span><span style=\"font-size: 1.09rem;\">list of conditions and the following disclaimer.</span></span></p><p><span style=\"font-style: normal;\"><span style=\"font-size: 1.09rem;\">* Redistributions in binary form must reproduce the above copyright notice,&nbsp;</span><span style=\"font-size: 1.09rem;\">this list of conditions and the following disclaimer in the documentation&nbsp;</span><span style=\"font-size: 1.09rem;\">and/or other materials provided with the distribution.</span></span></p><p><span style=\"font-style: normal;\"><span style=\"font-size: 1.09rem;\">* Neither the name of the copyright holder nor the names of its&nbsp;</span><span style=\"font-size: 1.09rem;\">contributors may be used to endorse or promote products derived from&nbsp;</span><span style=\"font-size: 1.09rem;\">this software without specific prior written permission.</span></span></p><p><span style=\"font-style: normal;\"><span style=\"font-size: 1.09rem;\">THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"&nbsp;</span><span style=\"font-size: 1.09rem;\">AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE&nbsp;</span><span style=\"font-size: 1.09rem;\">IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE&nbsp;</span><span style=\"font-size: 1.09rem;\">DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE&nbsp;</span><span style=\"font-size: 1.09rem;\">FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL&nbsp;</span><span style=\"font-size: 1.09rem;\">DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR&nbsp;</span><span style=\"font-size: 1.09rem;\">SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER&nbsp;</span><span style=\"font-size: 1.09rem;\">CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,&nbsp;</span><span style=\"font-size: 1.09rem;\">OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE&nbsp;</span><span style=\"font-size: 1.09rem;\">OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</span></span></p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qSXwFionZM",
+          "_anchor": "content2-8",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content2",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article>\n                <blockquote><p> <span style=\"font-style: normal;\"><b>SWRevealViewController</b>&nbsp;Copyright (c) 2013 Joan Lluch joan.lluch@sweetwilliamsl.com</span></p><p><span style=\"font-size: 1.09rem; font-style: normal;\">Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</span></p><p><span style=\"font-size: 1.09rem; font-style: normal;\">The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</span></p><p><span style=\"font-size: 1.09rem; font-style: normal;\">THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</span></p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qSXwFiC8j6",
+          "_anchor": "content2-9",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "Privacy.html": {
+      "settings": {
+        "meta_descr": "Website Builder Description",
+        "title": "Privacy",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "position": "relative",
+            ".card": {
+              "border-radius": "0px",
+              "margin-bottom": "-1px",
+              ".card-header": {
+                "border-radius": "0px",
+                "border": "0px",
+                "padding": "0",
+                "a.panel-title": {
+                  "margin-bottom": "0",
+                  "font-style": "normal",
+                  "font-weight": "500",
+                  "display": "block",
+                  "text-decoration": "none !important",
+                  "margin-top": "-1px",
+                  "line-height": "normal",
+                  "&:focus": {
+                    "text-decoration": "none !important"
+                  },
+                  "h4": {
+                    "padding": "1.3rem 2rem",
+                    "border": "1px solid #dfdfdf",
+                    "margin-bottom": "0",
+                    ".sign": {
+                      "padding-right": "1rem"
+                    }
+                  }
+                }
+              },
+              ".panel-body": {
+                "color": "#767676"
+              }
+            }
+          },
+          "_name": "accordion1",
+          "_customHTML": "<section class=\"accordion1\" group=\"Accordion & Toggles & Tabs\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" plugins=\"mbr-switch-arrow\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <select title=\"Accordions Count\" name=\"bootstrapAccordion\">\n             <option value=\"1\">1</option>\n             <option value=\"2\">2</option>\n             <option value=\"3\" selected>3</option>\n             <option value=\"4\">4</option>\n             <option value=\"5\">5</option>\n             <option value=\"6\">6</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/04.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#f9f9f9\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"section-head text-center space30\">\n                    <h2 class=\"mbr-section-title pb-5 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Privacy</h2>\n                </div>\n                <div class=\"clearfix\"></div>\n                <div id=\"bootstrap-accordion\" class=\"panel-group accordionStyles accordion\" role=\"tablist\" aria-multiselectable=\"true\">\n                    <div class=\"card\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed text-black\" data-toggle=\"collapse\" data-core href=\"#collapse1\" aria-expanded=\"false\" aria-controls=\"collapse1\">\n                                <h4 class=\" mbr-fonts-style\" mbr-theme-style=\"display-5\">Privacy on nRF Connect</h4>\n                            </a>\n                        </div>\n                        <div id=\"collapse1\" class=\"panel-collapse noScroll collapse \" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                            <div class=\"panel-body p-4\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">\n                                   nRF Connect is a standalone app. The app does not collect any personal information, location, device information.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card\" mbr-if=\"bootstrapAccordion > 1\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingTwo\">\n                            <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-core href=\"#collapse2\" aria-expanded=\"false\" aria-controls=\"collapse2\">\n                                <h4 class=\" mbr-fonts-style\" mbr-theme-style=\"display-5\">Data Usage</h4>\n                            </a>\n                            \n                        </div>\n                        <div id=\"collapse2\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingTwo\" data-parent=\"#accordion\">\n                            <div class=\"panel-body p-4\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">\n                                   Communication between your phone or tablet and peripheral are saved only locally. You can browse inbound, outbound messages and app behaviours in log file.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card\" mbr-if=\"bootstrapAccordion > 2\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingThree\">\n                            <a role=\"button\" class=\"collapsed text-black panel-title\" data-toggle=\"collapse\" data-core href=\"#collapse3\" aria-expanded=\"false\" aria-controls=\"collapse3\">\n                                <h4 class=\" mbr-fonts-style\" mbr-theme-style=\"display-5\">Network Connections</h4>\n                            </a>\n                        </div>\n                        <div id=\"collapse3\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\" data-parent=\"#accordion\">\n                            <div class=\"panel-body p-4\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">nRF Connect download only necessary information to provide function that can work properly. You can stop the mobile network usage in Settings at anytime.&nbsp;</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card\" mbr-if=\"bootstrapAccordion > 3\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingFour\">\n                            <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-core href=\"#collapse4\" aria-expanded=\"false\" aria-controls=\"collapse4\">\n                                <h4 class=\" mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                                    <span class=\"sign mbr-iconfont mbri-arrow-down inactive\"></span> This is a accordion Title 4\n                                </h4>\n                            </a> \n                        </div>\n                        <div id=\"collapse4\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingFour\" data-parent=\"#accordion\">\n                            <div class=\"panel-body p-4\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">\n                                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card\" mbr-if=\"bootstrapAccordion > 4\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingFive\">\n                            <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-core href=\"#collapse5\" aria-expanded=\"false\" aria-controls=\"collapse5\">\n                                <h4 class=\" mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                                    <span class=\"sign mbr-iconfont mbri-arrow-down inactive\"></span> This is a accordion Title 5\n                                </h4>\n                            </a>\n                        </div>\n                        <div id=\"collapse5\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingFive\" data-parent=\"#accordion\">\n                            <div class=\"panel-body p-4\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">\n                                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card\" mbr-if=\"bootstrapAccordion > 5\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingSix\">\n                            <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-core href=\"#collapse6\" aria-expanded=\"false\" aria-controls=\"collapse6\">\n                                <h4 class=\" mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                                    <span class=\"sign mbr-iconfont mbri-arrow-down inactive\"></span> This is a accordion Title 6\n                                </h4>\n                            </a>\n                        </div>\n                        <div id=\"collapse6\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingSix\" data-parent=\"#accordion\">\n                            <div class=\"panel-body p-4\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">\n                                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "accordion1-i",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "qSXNa1telV",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
