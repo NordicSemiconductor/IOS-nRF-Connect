@@ -39,9 +39,7 @@ For Google: https://github.com/google/eddystone/blob/master/protocol-specificati
 (Eddystone-UID, Eddystone-URL, Eddystone-TLM are supported)
 
 ## Roadmap 
-- GATT Profiles support
-- Imporving UI
-- GATT Server configuration
+iBeacon support
 
 ## Related Projects
 - https://github.com/NordicSemiconductor/IOS-Pods-DFU-Library
