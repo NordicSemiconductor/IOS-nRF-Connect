@@ -34,13 +34,13 @@ After version 2.4:
 - iOS 14 Support
 - Improved in-app feedback and crash reporting
 
-### Will there be a Mac/Catalyst Port of nRF Connect for iOS?
+### Will there be a Mac/Catalyst port of nRF Connect for iOS?
 Since macOS Catalina (10.15), Apple allows [iOS apps to be compiled and run in near-native form on the Mac](https://developer.apple.com/mac-catalyst/). There is already a [Desktop version of nRF Connect](https://www.nordicsemi.com/Software-and-tools/Development-Tools/nRF-Connect-for-desktop) under full development and support from a dedicated team, so there are no plans as of yet to publish nRF Connect for iOS on the Mac App Store.
 
 That being said, some users have requested us to ship nRF Connect for iOS as a Mac app. If you too are interested, please let us know; the more demand we can see, the easier it is for us to devote the resources needed to make it happen.
 
 ## Swift Development
-Early on after the release of version 2.0, we published a few blog posts regarding its [full feature set](), the amount of [work and detail we pour into a bug-fix release](https://devzone.nordicsemi.com/nordic/nordic-blog/b/blog/posts/nrf_2d00_connect_2d00_ios_2d00_2_2d00_0_2d00_3_2d00_what_2d00_is_2d00_a_2d00_bugfix_2d00_release), and [our transition to Dark Mode in 2.1](https://devzone.nordicsemi.com/nordic/nordic-blog/b/blog/posts/nrf_2d00_connect_2d00_ios_2d00_dark_2d00_mode).
+Early on after the release of version 2.0, we published a few blog posts regarding its [full feature set](https://devzone.nordicsemi.com/nordic/nordic-blog/b/blog/posts/announcing-nrf-connect-2-0-for-ios), the amount of [work and detail we pour into a bug-fix release](https://devzone.nordicsemi.com/nordic/nordic-blog/b/blog/posts/nrf_2d00_connect_2d00_ios_2d00_2_2d00_0_2d00_3_2d00_what_2d00_is_2d00_a_2d00_bugfix_2d00_release), and [our transition to Dark Mode in 2.1](https://devzone.nordicsemi.com/nordic/nordic-blog/b/blog/posts/nrf_2d00_connect_2d00_ios_2d00_dark_2d00_mode).
 
 Since then, we've transitioned towards blogging less-often, but attempting to offer a unique perspective focused more on using all the development tools at our disposal to extract more performance out of iOS hardware:
 - [SIMD Optimizations in Swift](https://devzone.nordicsemi.com/nordic/nordic-blog/b/blog/posts/nrf_2d00_connect_2d00_simd_2d00_optimizations_2d00_in_2d00_swift)
@@ -50,4 +50,4 @@ Since then, we've transitioned towards blogging less-often, but attempting to of
 - [iOS DFU/McuMgr Library](https://github.com/NordicSemiconductor/IOS-Pods-DFU-Library)
 - [nRF Connect for iOS](https://github.com/NordicSemiconductor/Android-nRF-Connect)
 - [Android DFU/McuMgr Library](https://github.com/NordicSemiconductor/Android-DFU-Library)
-- [nRF Connect for Desktop GitHub Page](https://www.nordicsemi.com/Products/Bluetooth-low-energy/nRF-Connect-for-desktop)
+- [nRF Connect for Desktop GitHub Page](https://github.com/NordicSemiconductor/pc-nrfconnect-launcher)
