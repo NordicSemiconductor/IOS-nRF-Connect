@@ -48,6 +48,6 @@ Since then, we've transitioned towards blogging less-often, but attempting to of
 
 ### Related Projects
 - [iOS DFU/McuMgr Library](https://github.com/NordicSemiconductor/IOS-Pods-DFU-Library)
-- [nRF Connect for iOS](https://github.com/NordicSemiconductor/Android-nRF-Connect)
+- [nRF Connect for Android](https://github.com/NordicSemiconductor/Android-nRF-Connect)
 - [Android DFU/McuMgr Library](https://github.com/NordicSemiconductor/Android-DFU-Library)
 - [nRF Connect for Desktop GitHub Page](https://github.com/NordicSemiconductor/pc-nrfconnect-launcher)
