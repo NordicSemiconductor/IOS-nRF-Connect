@@ -4,6 +4,18 @@
         <title>nRF-Connect</title>
         <item>
             <title>2.7.18</title>
+            <pubDate>Thu, 27 Mar 2025 12:07:34 +0000</pubDate>
+            <sparkle:version>62</sparkle:version>
+            <sparkle:shortVersionString>2.7.18</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://raw.githubusercontent.com/NordicSemiconductor/IOS-nRF-Connect/refs/heads/master/Releases/nRF-Connect-2-7-18-b62.dmg" length="52483168" type="application/octet-stream" sparkle:edSignature="Wg051+AEt2NooMS2xD27jRsfpbaEYRuHRqFd+7ePx11AuJ0kK0XcRpRaLqzQZz3J016IRrTRtE1u76rxwI29BA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/NordicSemiconductor/IOS-nRF-Connect/refs/heads/master/Releases/nRF-Connect62-24.delta" sparkle:deltaFrom="24" length="1583202" type="application/octet-stream" sparkle:edSignature="Fg5R/v6czZ6rab22xYzyrD5Rt+UTpA9K+vfP5HTTWutMk3MuEofCEqdjaDhUDOAq4bjK5xtrWh5g12tTa8eEBQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/NordicSemiconductor/IOS-nRF-Connect/refs/heads/master/Releases/nRF-Connect62-3.delta" sparkle:deltaFrom="3" length="2193630" type="application/octet-stream" sparkle:edSignature="XLXRNbLzB9Y6L6/hD3NamutTHORJ8G/TWI7MZU/ojHVwjyJ9p0p68+P2VVJVus0wvWDxnc9xGDJIuKpjwi+fDA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.7.18</title>
             <pubDate>Fri, 21 Mar 2025 16:49:42 +0000</pubDate>
             <sparkle:version>24</sparkle:version>
             <sparkle:shortVersionString>2.7.18</sparkle:shortVersionString>
