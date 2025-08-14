@@ -3,6 +3,21 @@
     <channel>
         <title>nRF-Connect</title>
         <item>
+            <title>2.7.22</title>
+            <pubDate>Thu, 14 Aug 2025 14:13:35 +0100</pubDate>
+            <sparkle:version>348</sparkle:version>
+            <sparkle:shortVersionString>2.7.22</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://raw.githubusercontent.com/NordicSemiconductor/IOS-nRF-Connect/refs/heads/master/Releases/nRF-Connect-2-7-22-b348.dmg" length="64812128" type="application/octet-stream" sparkle:edSignature="fLwGsODXdwrbtUWzoC9ioUI/ueKvwZelIFlF9/I38rGQCU26+W3GcUerQlvYNRhiMtlDAUPxwbxZE5EiVcE1AQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/NordicSemiconductor/IOS-nRF-Connect/refs/heads/master/Releases/nRF%20Connect%20for%20Mac348-197.delta" sparkle:deltaFrom="197" length="7559102" type="application/octet-stream" sparkle:edSignature="PFdULPUrbuZ0gnv7Ko0ANGlkZJxY+2qKdynY4O841vfsrd9rbBILcoIWYb7nCYwO5D1ORaVXxmV5I3n3y6WLAQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/NordicSemiconductor/IOS-nRF-Connect/refs/heads/master/Releases/nRF%20Connect%20for%20Mac348-171.delta" sparkle:deltaFrom="171" length="7808162" type="application/octet-stream" sparkle:edSignature="Y7cQW51pmbZlaUW+MuunydJyPerOnTR+Hk9Y3CgeSFfA8TnZtUtZj15mwkuYRoPAQfxFZc86lX5T2x9jEpVSCA=="/>
+                <enclosure url="https://raw.githubusercontent.com/NordicSemiconductor/IOS-nRF-Connect/refs/heads/master/Releases/nRF%20Connect%20for%20Mac348-127.delta" sparkle:deltaFrom="127" length="7807770" type="application/octet-stream" sparkle:edSignature="UBZDiOOPe9mq4bMwlpmzjZtVMgaPbshFlMjaAp98hcO+AzbHoWDjpkDH4xEWVL/YSwk2SOJyifyWJ6Tr26RABw=="/>
+                <enclosure url="https://raw.githubusercontent.com/NordicSemiconductor/IOS-nRF-Connect/refs/heads/master/Releases/nRF%20Connect%20for%20Mac348-85.delta" sparkle:deltaFrom="85" length="8624478" type="application/octet-stream" sparkle:edSignature="VeMRORJP0KhdVRKqdN0u9b/EGOGnF6qQA2i7gy5Z/ex/yxs09fwWqrBo7NAaU6Olk4DSCHKx5InSBWUBfblmBw=="/>
+                <enclosure url="https://raw.githubusercontent.com/NordicSemiconductor/IOS-nRF-Connect/refs/heads/master/Releases/nRF%20Connect%20for%20Mac348-65.delta" sparkle:deltaFrom="65" length="8851286" type="application/octet-stream" sparkle:edSignature="ca7rQJB0jW895h+BvSBMJXgY/Eqz2EOBU0Yxf+IwRVlYrmNRfBAPscs4YIfmRmOW5Qn1dj0nNObw5IXGYtA4Bw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.7.18</title>
             <pubDate>Wed, 21 May 2025 15:50:57 +0100</pubDate>
             <sparkle:version>197</sparkle:version>
@@ -12,8 +27,8 @@
             <sparkle:deltas>
                 <enclosure url="https://raw.githubusercontent.com/NordicSemiconductor/IOS-nRF-Connect/refs/heads/master/Releases/nRF-Connect197-171.delta" sparkle:deltaFrom="171" length="1571934" type="application/octet-stream" sparkle:edSignature="DoxdrV580mzNMjEbrlYuw0wW9+L9fsUgYzNPmv7NyO+ZUQj0ct+ase0otpBc1y/IKJcdirHJT7ezBW1E1WcBCQ=="/>
                 <enclosure url="https://raw.githubusercontent.com/NordicSemiconductor/IOS-nRF-Connect/refs/heads/master/Releases/nRF-Connect197-127.delta" sparkle:deltaFrom="127" length="1913634" type="application/octet-stream" sparkle:edSignature="ki3CvKcksJ0LQyCrhXYRQUwuUrWuw2Gey1iilGBRFA+ehO+CVtNDQdSloHnk8vxBL0ry0VadflohjKJCRBIbAw=="/>
-                <enclosure url="https://raw.githubusercontent.com/NordicSemiconductor/IOS-nRF-Connect/refs/heads/master/Releases/nRF-Connect197-85.delta" sparkle:deltaFrom="85" length="7311474" type="application/octet-stream" sparkle:edSignature="LAO/7vgMhrlf3TRxmC60TKgdftz0FxwDRT1AWjpS4cZ/S5UEso1YeClZTzdyxONKzjM76pEicP6qDoHPErCsBw=="/>
                 <enclosure url="https://raw.githubusercontent.com/NordicSemiconductor/IOS-nRF-Connect/refs/heads/master/Releases/nRF-Connect197-62.delta" sparkle:deltaFrom="62" length="7592354" type="application/octet-stream" sparkle:edSignature="xlYNcTRuNETfEh0GRTD1vG9caLxyA5X92hHOUvD83TblEuODn8bqspMJse3uQBZ0WtdIo6W/6zKkS0YpNqnYBQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/NordicSemiconductor/IOS-nRF-Connect/refs/heads/master/Releases/nRF-Connect197-85.delta" sparkle:deltaFrom="85" length="7311474" type="application/octet-stream" sparkle:edSignature="LAO/7vgMhrlf3TRxmC60TKgdftz0FxwDRT1AWjpS4cZ/S5UEso1YeClZTzdyxONKzjM76pEicP6qDoHPErCsBw=="/>
                 <enclosure url="https://raw.githubusercontent.com/NordicSemiconductor/IOS-nRF-Connect/refs/heads/master/Releases/nRF-Connect197-65.delta" sparkle:deltaFrom="65" length="7594330" type="application/octet-stream" sparkle:edSignature="txRI3WRWftZ44f5qjNtBxGK3T6wfgALzTdyc654BYToMtGMLpDc3dzPdg1ho9GH7TRiq8rE2wm95iJ5OcrGyCA=="/>
             </sparkle:deltas>
         </item>
@@ -30,21 +45,6 @@
                 <enclosure url="https://raw.githubusercontent.com/NordicSemiconductor/IOS-nRF-Connect/refs/heads/master/Releases/nRF-Connect171-65.delta" sparkle:deltaFrom="65" length="7237666" type="application/octet-stream" sparkle:edSignature="W05JupMd850FfOwVH28AQ+AswnmSOPMH+R+hgh1388zITMdfyrP36dHNGby4Jofnn7H0ZDgeUg1dTiZzwxrKDQ=="/>
                 <enclosure url="https://raw.githubusercontent.com/NordicSemiconductor/IOS-nRF-Connect/refs/heads/master/Releases/nRF-Connect171-62.delta" sparkle:deltaFrom="62" length="7247126" type="application/octet-stream" sparkle:edSignature="WLZdePgRgpb85Bcv8TSMS7y/O54QxkalbAB2PCSFJXLzKsSviw3A6pqnh2mml1DWT4v6YneRJpwM3hdh1g88CA=="/>
                 <enclosure url="https://raw.githubusercontent.com/NordicSemiconductor/IOS-nRF-Connect/refs/heads/master/Releases/nRF-Connect171-24.delta" sparkle:deltaFrom="24" length="7489018" type="application/octet-stream" sparkle:edSignature="RSd82uTK7oR6s3u8lZlhQtjVPVlEhD2UXO+mnRObet89VsVE9X1xEgl6E1Amz91EvUdb0A7tdxrKnOlC8KW0Ag=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>2.7.18</title>
-            <pubDate>Thu, 17 Apr 2025 16:56:59 +0100</pubDate>
-            <sparkle:version>127</sparkle:version>
-            <sparkle:shortVersionString>2.7.18</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://raw.githubusercontent.com/NordicSemiconductor/IOS-nRF-Connect/refs/heads/master/Releases/nRF-Connect-2-7-18-b127.dmg" length="59532507" type="application/octet-stream" sparkle:edSignature="oK/cIGvnJGh37+70nNUbbg43tvb2xnSGLTJ/qS47emaiYWnf/hdmRStu/lUeO6b1hmVxDJmjdoVKCuCDJKHDCQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://raw.githubusercontent.com/NordicSemiconductor/IOS-nRF-Connect/refs/heads/master/Releases/nRF-Connect127-85.delta" sparkle:deltaFrom="85" length="6811434" type="application/octet-stream" sparkle:edSignature="OImDq4iGXwllGEclheRMQFuI0wQUsMjMF2p+ZXEq7NNU+rHeN487LGqClhGhvFkTIP1nsEYQD3+PhnaJnYPyCA=="/>
-                <enclosure url="https://raw.githubusercontent.com/NordicSemiconductor/IOS-nRF-Connect/refs/heads/master/Releases/nRF-Connect127-65.delta" sparkle:deltaFrom="65" length="7098402" type="application/octet-stream" sparkle:edSignature="JOyF2zHcCSHsxaFIaX1ULFm4bjmR+dBOfuATQbwqDgvhi+l9/d0aujiLDuGSp6zL0FkP8JnHnvdmVDRZ8cNcAQ=="/>
-                <enclosure url="https://raw.githubusercontent.com/NordicSemiconductor/IOS-nRF-Connect/refs/heads/master/Releases/nRF-Connect127-62.delta" sparkle:deltaFrom="62" length="7099118" type="application/octet-stream" sparkle:edSignature="aTI4Lo+ifIL2uvCFVT+IYrdfSLjmFl1RcLw82UEd6RClVte/6OLS4o5nBfFEfhIdiqKrj+7aTYkjrIrMtAPDBg=="/>
-                <enclosure url="https://raw.githubusercontent.com/NordicSemiconductor/IOS-nRF-Connect/refs/heads/master/Releases/nRF-Connect127-24.delta" sparkle:deltaFrom="24" length="7362014" type="application/octet-stream" sparkle:edSignature="5YLTs9mVE3bFC3dA7dmQgPWfgmWEbaKHPJ5uSDjv0yCYOl3bJmpXMxp5H9rYIovAv4JyeuymSzQmJR/d6hpZAw=="/>
-                <enclosure url="https://raw.githubusercontent.com/NordicSemiconductor/IOS-nRF-Connect/refs/heads/master/Releases/nRF-Connect127-3.delta" sparkle:deltaFrom="3" length="7732102" type="application/octet-stream" sparkle:edSignature="5po1frGZ5xssPKDFqLbDH6pGfIuFMmroG3k+U2C0x2QwuH65QhoYKkO4uovpvs3mAyNKF7MusDS3JVxrUsl8Dw=="/>
             </sparkle:deltas>
         </item>
     </channel>
