@@ -11,7 +11,7 @@
 | :---: | :---: | :----: | :----: |
 | | ![](ios.png) | ![](ipados.png) | ![](mac.png) |
 | Minimum Version | iOS 16.0 | iPadOS 16.0 | macOS 13.0 |
-| Exclusive Features | N/A | N/A | Programmer Tab, File Manager Tab (rough edges), Serial Terminal (very Alpha), Extended System Information |
+| Exclusive Features | N/A | N/A | Programmer Tab (needs more tweaking), Serial Terminal, File Manager Tab (rough edges), Extended System Information |
 | Notes | N/A | There are no exclusive features available to the iPad per se, but we strive for nRF Connect to perform as a 'native citizen'. So there's support for multiple app sizes, SlideOver, and so on. | We have done it! You can now run nRF Connect natively on your Mac! It is rough and far from perfect, but you can run it, too. |
 | Distribution | [App Store](https://apps.apple.com/us/app/nrf-connect-for-mobile/id1054362403) | [App Store](https://apps.apple.com/us/app/nrf-connect-for-mobile/id1054362403) | [Self-Distribution](https://github.com/NordicSemiconductor/IOS-nRF-Connect/raw/refs/heads/readme/Releases/nRF-Connect-2-7-18-b85.dmg) [(see GitHub Releases Folder)](https://github.com/NordicSemiconductor/IOS-nRF-Connect/tree/readme/Releases)
 
