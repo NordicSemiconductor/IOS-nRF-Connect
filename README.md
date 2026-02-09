@@ -10,9 +10,9 @@
 | | iOS | iPadOS | macOS |
 | :---: | :---: | :----: | :----: |
 | | ![](ios.png) | ![](ipados.png) | ![](mac.png) |
-| Minimum Version | iOS 16.0 | iPadOS 16.0 | macOS 13.0 |
-| Exclusive Features | N/A | N/A | Programmer Tab (needs more tweaking), Serial Terminal, File Manager Tab (rough edges), Extended System Information |
-| Notes | N/A | There are no exclusive features available to the iPad per se, but we strive for nRF Connect to perform as a 'native citizen'. So there's support for multiple app sizes, SlideOver, and so on. | We have done it! You can now run nRF Connect natively on your Mac! It is rough and far from perfect, but you can run it, too. |
+| Minimum Version | iOS 17.0 | iPadOS 17.0 | macOS 14.0 |
+| Exclusive Features | N/A | Early support for iPad OS 26.0 windowing. For example, Main Window + Device Logging during DFU. | Programmer (requires nrfutil & SEGGER J-LINK), Serial Terminal, SMP File Manager (still rough), Extended System Information, Multiple Windows (Accessories such as 'Logs' Only) |
+| Notes | N/A | N/A | Updates via Sparkle like a good Mac app. |
 | Distribution | [App Store](https://apps.apple.com/us/app/nrf-connect-for-mobile/id1054362403) | [App Store](https://apps.apple.com/us/app/nrf-connect-for-mobile/id1054362403) | [Self-Distribution](https://github.com/NordicSemiconductor/IOS-nRF-Connect/raw/refs/heads/master/Releases/nRF-Connect-2-7-24-b773.dmg) [(see GitHub Releases Folder)](https://github.com/NordicSemiconductor/IOS-nRF-Connect/tree/readme/Releases)
 
 ## Project history
@@ -33,7 +33,7 @@ The current version nRF Connect (formerly known as "nRF Master Control Panel"), 
 - Parses Apple and Google beacons
 - Advertising as a BLE Peripheral
 - Import Files via Drag & Drop, or Open from External Sources (iCloud, etc.)
-- System Information
+- System Information (OS, CPU, GPU details)
 - [Online Service & Characteristic Repository](https://github.com/NordicSemiconductor/bluetooth-numbers-database), updated on app startup.
 
 ## Roadmap
