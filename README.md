@@ -1,6 +1,8 @@
 # nRF Connect for iOS
 
 ![Platforms](https://img.shields.io/badge/Platforms-iOS%20|%20iPadOS%20|%20macOS-333333.svg)
+[![Release](https://img.shields.io/github/release/NordicSemiconductor/IOS-nRF-Connect.svg)](https://github.com/NordicSemiconductor/IOS-nRF-Connect/releases)
+[![GitHub stars](https://img.shields.io/github/stars/NordicSemiconductor/IOS-nRF-Connect)](https://github.com/NordicSemiconductor/IOS-nRF-Connect/stargazers)
 
 > [!NOTE]  
 > This repository does not hold the source code of nRF Connect for Apple platforms. It is a public repository used to submit any issues and/or feedback.
