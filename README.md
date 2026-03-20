@@ -29,7 +29,7 @@ The current version nRF Connect (formerly known as "nRF Master Control Panel"), 
 - Read and Write Characteristic(s) and Descriptors
 - Enable and Disable Notifications and Indications
 - Logs for Bluetooth related events and method calls
-- Seamless Device Firmware Update, with support for 'Nordic', McuMgr and SUIT DFU
+- Seamless Device Firmware Update, with support for 'Nordic', McuMgr, SUIT and Bare Metal DFU
 - Parses Apple and Google beacons
 - Advertising as a BLE Peripheral
 - Import Files via Drag & Drop, or Open from External Sources (iCloud, etc.)
@@ -40,11 +40,9 @@ The current version nRF Connect (formerly known as "nRF Master Control Panel"), 
 
 Please keep in mind that the following is representative of the team's intentions, and in no way should be taken as final. Priorities change, as well as unexpected issues & bugs we might decide are more important and need our immediate attention.
 
-Version 2.8:
-- Rewrite of Client / Server Screens in Device Details
 
 Version 2.9:
-- Full 'Scanner' Rewrite
+- 'Scanner' Rewrite
 
 Ongoing:
 - Keep making 'Mac' version of nRF Connect fit better on the Mac.
